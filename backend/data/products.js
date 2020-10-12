@@ -1,3 +1,5 @@
+const { builtinModules } = require("module")
+
 const products = [
   {
     _id: '1',
@@ -79,4 +81,4 @@ const products = [
   },
 ]
 
-export default products
+module.exports =  products
